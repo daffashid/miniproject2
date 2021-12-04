@@ -1,4 +1,4 @@
-const {db} = require('../server/mysql')
+const {db} = require('../server/mysqlconn')
 
 async function createAccount(req,res){
     
